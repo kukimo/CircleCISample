@@ -1,0 +1,17 @@
+初めてのPHPUnit＠Mac
+
+以下の記事を参考にさせていただきました。
+[macにhomevrewでPHP5.6環境をインストールしてみる](http://takemaru123.hatenablog.jp/entry/2014/11/27/224037)
+
+##まずインストール
+
+```
+curl -O https://phar.phpunit.de/phpunit.phar
+```
+
+ダウンロード後、実行しようとするとPHP5.6以上にしろと怒られるのでバージョンアップします。
+
+```
+sudo brew update
+sudo brew upgrade
+
